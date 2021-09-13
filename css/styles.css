@@ -24,3 +24,24 @@ id
 потомок
 ребенок
 */
+.item {
+  background-color: tomato;
+}
+#item {
+  background-color: teal;
+}
+li {
+  background-color: brown;
+}
+li.item-last {
+  background-color: chocolate;
+}
+.btn {
+  background-color: lightskyblue;
+}
+.btn:active {
+  background-color: lime;
+}
+.btn:hover {
+  background-color: magenta;
+}
