@@ -1,0 +1,47 @@
+.title {
+  color: yellowgreen;
+}
+p {
+  background-color: red;
+}
+* {
+  color: turquoise;
+}
+.text {
+  color: rgb(69, 177, 177);
+}
+[href] {
+  color: green;
+}
+a {
+  text-decoration: none;
+}
+/* Универсальный  
+тег
+id
+класс
+атрибут
+потомок
+ребенок
+*/
+.item {
+  background-color: tomato;
+}
+#item {
+  background-color: teal;
+}
+li {
+  background-color: brown;
+}
+li.item-last {
+  background-color: chocolate;
+}
+.btn {
+  background-color: lightskyblue;
+}
+.btn:active {
+  background-color: lime;
+}
+.btn:hover {
+  background-color: magenta;
+}

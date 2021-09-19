@@ -1,47 +1,130 @@
-.title {
-  color: yellowgreen;
+:root {
+  --primary-title-color: #ffffff;
+  --secondary-title-color: #303030;
+  --primaty-text-color: #555555;
+  --secondary-text-color: #303030;
+  --third-text-color: #9da4bd;
+  --accent-color: #ff6c00;
 }
-p {
-  background-color: red;
+/* тимчасовий хедер для розробки шоб було видно */
+.header {
+  background-color: gray;
 }
-* {
-  color: turquoise;
-}
-.text {
-  color: rgb(69, 177, 177);
-}
-[href] {
-  color: green;
-}
-a {
+.link {
   text-decoration: none;
 }
-/* Универсальный  
-тег
-id
-класс
-атрибут
-потомок
-ребенок
-*/
-.item {
-  background-color: tomato;
-}
-#item {
-  background-color: teal;
-}
-li {
-  background-color: brown;
-}
-li.item-last {
-  background-color: chocolate;
+.list {
+  list-style: none;
 }
 .btn {
-  background-color: lightskyblue;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  font-weight: 1.33;
 }
-.btn:active {
-  background-color: lime;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.02em;
 }
-.btn:hover {
-  background-color: magenta;
+.header-btn {
+  color: var(--primary-title-color);
+}
+
+.header-link: {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  color: var(--primary-title-color);
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--accent-color);
+}
+.hero-pre-title {
+  color: rgba(157, 164, 189, 0.6);
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--primary-title-color);
+}
+.hero-after-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+}
+/* about */
+.about-title,
+.about-pre-title {
+  color: var(--secondary-title-color);
+}
+.about-after-title {
+  color: var(--primaty-text-color);
+}
+.about-btn {
+  color: #303030;
+}
+
+/* прайсес */
+.prices {
+  background-color: var(--secondary-text-color);
+}
+.prices-pre-title {
+  color: var(--primaty-text-color);
+}
+.prices-title {
+  color: var(--primary-title-color);
+}
+
+.prices-count,
+.prices-type {
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--primaty-text-color);
+}
+.prices-btn {
+  color: var(--primary-title-color);
+}
+
+/* reasones */
+.reasones {
+}
+.reasones-list {
+}
+.reasones-item {
+}
+.reasones-count {
+}
+.reasones-item-text {
+  font-weight: 600;
+  line-height: 1.87;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+/* footer */
+.footer-copy {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: var(--third-text-color);
+}
+.footer-link {
 }

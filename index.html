@@ -5,72 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BarberShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a href="./index.html"><img src="./images/logo.svg" alt="Лого барбершопа" /></a>
-        <ul>
-          <li>
-            <a href="">О нас</a>
+    <header class="header">
+      <nav  class="header-navigation">
+        <a href="./index.html"class="header-logo"><img src="./images/logo.svg" alt="Лого барбершопа" /></a>
+        <ul class="header-list list">
+          <li class="header-item"> 
+            <a class="header-link" href="">О нас</a>
           </li>
           <li>
-            <a href="">Услуги и цены</a>
+            <a class="header-link" href="">Услуги и цены</a>
           </li>
           <li>
-            <a href="">Мастера</a>
+            <a class="header-link" href="">Мастера</a>
           </li>
           <li>
-            <a href="">Контакты</a>
+            <a class="header-link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
-      <a href="tel:04411111111">+38 044 111 11 11</a>
-      <button type="button">Онлайн-запись</button>
+      <a class="header-tel-contacts" href="tel:04411111111">+38 044 111 11 11</a>
+      <button class="header-btn btn" type="button">Онлайн-запись</button>
     </header>
 
     <main>
-      <section>
-        <ul>
-          <li><a href="">YouTube</a></li>
-          <li><a href="">Instagramm</a></li>
+      <section class="hero">
+        <ul class="list">
+          <li><a href="" class="header-link link">YouTube</a></li>
+          <li><a href="" class="header-link link">Instagramm</a></li>
         </ul>
         <div>
-          <p lang="en">A hair salon for men in Kyiv</p>
-          <h1 lang="en">BarberShop</h1>
-          <p>Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.</p>
+          <p lang="en" class="hero-pre-title">A hair salon for men in Kyiv</p>
+          <h1 lang="en" class="hero-title">BarberShop</h1>
+          <p class="hero-after-title">Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.</p>
         </div>
       </section>
-      <section>
-        <ul>
-          <li>
+      <section class="about">
+        <ul class="about-list list">
+          <li class="about-item">
             <img src="./images/img1.jpg" alt="Барбер бреет шею" width="270" />
           </li>
-          <li>
+          <li  class="about-item">
             <img src="./images/img2.jpg" alt="Барбер делает кант" width="270" />
           </li>
         </ul>
         <div>
-          <p>О нас</p>
-          <h2>Лучший Барбершоп твоего города</h2>
+          <p class="about-pre-title">О нас</p>
+          <h2 class="section-title">Лучший Барбершоп твоего города</h2>
           <p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
-          <p>
+          <p class="about-text">
             Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда
             ты попадешь в руки нашего мастера, то уже никогда не сможешь быть прежним. Мы команда,
             которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать
             каждого, кто к нам приходит!
           </p>
-          <button type="button">Онлайн-запись</button>
+          <button class="btn about-btn" type="button">Онлайн-запись</button>
         </div>
       </section>
       <section>
         <p>Проведи время в компании лучших мастеров</p>
-        <h2>Услуги и цены</h2>
-        <ul>
-          <li>
-            <p>Мужская стрижка</p>
-            <span>от 300 грн.</span>
+        <h2 class="section-title prices-title">Услуги и цены</h2>
+        <ul class="prices-list list">
+          <li class="prices-item">
+            <p class="prices-type">Мужская стрижка</p>
+            <span class="prices-count">от 300 грн.</span>
           </li>
           <li>
             <p>Стрижка бороды</p>
@@ -103,14 +109,14 @@
             <span>от 200 грн.</span>
           </li>
         </ul>
-        <button type="button">Онлайн-запись</button>
+        <button class="btn prices-btn" type="button">Онлайн-запись</button>
       </section>
 
-      <section>
-        <ul>
+      <section class="reasons">
+        <ul class="list reasons-list">
           <li>
-            <span>600</span>
-            <p>Довольных клиентов в день</p>
+            <span class="reasons-count" >600</span>
+            <p class="reasons-item-text">Довольных клиентов в день</p>
           </li>
           <li>
             <span>50</span>
@@ -224,9 +230,9 @@
         <p>Ежедневно с 9:00 до 22:00</p>
       </section>
     </main>
-    <footer>
-      <p>&copy; Copyright 2021</p>
-      <ul>
+    <footer class="footer"> 
+      <p class="footer-copy">&copy; Copyright 2021</p>
+      <ul class="list">
         <li><a href="">YouTube</a></li>
         <li><a href="">Instagramm</a></li>
       </ul>
