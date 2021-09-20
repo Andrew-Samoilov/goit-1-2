@@ -3,22 +3,8 @@
 *::after {
   box-sizing: border-box;
 }
-
-.box-1 {
-  border-radius: 5px;
-}
-
-.box-3 {
-  width: 150px;
-  min-height: 150px;
-  outline: 1px dotted burlywood;
-  border-radius: 2%;
-}
-
-.box-1,
-.box-2 {
-  margin-bottom: 20px;
-  outline: 1px solid seagreen;
+.body {
+  margin: 0;
 }
 .btn {
   border: 2px dotted tomato;
@@ -26,4 +12,16 @@
   display: inline-block;
   padding: 20px 40px;
   background-color: slategrey;
+}
+.btn-icon {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: tomato;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.container {
+  width: 700px;
+  margin: 0 auto;
 }
