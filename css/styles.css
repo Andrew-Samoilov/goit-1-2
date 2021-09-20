@@ -5,32 +5,25 @@
 }
 
 .box-1 {
-  width: 480px;
-  height: 80px;
-  background-color: #f44336;
-
-  /*  The value can be pixels  */
-  border-radius: 20px;
-}
-.box-2 {
-  width: 420px;
-  height: 620px;
-  background-color: #2196f3;
-
-  /*  The value can be percent  */
-  border-radius: 20%;
+  border-radius: 5px;
 }
 
 .box-3 {
   width: 150px;
-  height: 150px;
-  background-color: #4caf50;
-
-  /*  If the block is a square, settings the radius to 50% will transform it to a circle  */
-  border-radius: 50%;
+  min-height: 150px;
+  outline: 1px dotted burlywood;
+  border-radius: 2%;
 }
 
 .box-1,
 .box-2 {
   margin-bottom: 20px;
+  outline: 1px solid seagreen;
+}
+.btn {
+  border: 2px dotted tomato;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 20px 40px;
+  background-color: slategrey;
 }
