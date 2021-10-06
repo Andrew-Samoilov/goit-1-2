@@ -1,0 +1,30 @@
+.content {
+  padding: 50px;
+  display: flex;
+  position: absolute;
+}
+.content-circle{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #5e5373;
+    position: relative;
+    left: 0;
+
+    animation-name: circle;
+    animation-duration: 2s;
+}
+
+@keyframes circle{
+  0% {
+    left: 0%;
+  }
+  50% {
+    
+  }
+  100% {
+    left: 800px;
+  }
+}
